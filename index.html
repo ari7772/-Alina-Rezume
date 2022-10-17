@@ -2,106 +2,113 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Уход и Красота</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <table cellspacing="15">
-        <tr>
-            <td>
-                <img src="avatarka.jpg" width="200" alt="тут фото Алины Анатольевны">
-            </td>
-            <td>
-                <h1>Алина Анатольевна</h1>
-                <p><em><strong>"Уход и Красота - признаки Успеха"</strong></em></p>
-                <p><em>Я люблю путишествовать, заниматься спортом и дарить своё время семье</em></p>
+    <body>
+        <div class="container">
+            <div class="info">
+                <img src="avatar.jpg" alt="тут фото Алины Анатольевны" class="avatar" />
+                
+                <div class="info-text">
 
-            </td>
+                    <h1>Алина Анатольевна</h1>
+                    <p><strong>"Уход и Красота - признаки Успеха"</strong></p>
+                    <p>Я люблю путишествовать, заниматься спортом и дарить своё время семье</p>
 
+                    <h4>Мои социальные сети</h4>
+                    
+                    <a href="https://instagram.com/sugaring_kubinka?igshid=ZjA0NjI3M2I="target="_blank">Инстаграм</a>
+                    |
+                    <a href="https://t.me/@a_Alina_Ilchenko"target="_blank">Телеграм</a>
+                    |
+                    <a href="https://vk.com/melonochka"target="_blank">Вконтакте</a>
+                </div>
+            </div>
 
-        </tr>
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Блогер</li>
+                <Li>Путишествия</Li>
+                <li>Саморазвитие в области Ухода и Красоты</li>
+            </ul>
 
+            <hr>
+        <div class="card bg-green">
+        <h2>Опыт работы и Учёбы</h2>
+        <table class="t">
+            <tr>
+                <td>Должность</td>
+                <td>Место учёбы/работы</td>
+                <td>Года учебы</td>
+            </tr>
 
-    </table>
-       
-    <hr>
+            <tr>
+                <td>Специалист по депиляции</td>
+                <td>г.Симферополь студия депиляции <em>"Катрин"</em></td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Мастер депиляции биополимером Skins</td>
+                <td>г.Звенигород студия красоты <em>"Mani"</em></td>
+                <td>2019</td>
+            </tr>
 
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-        <li><a href="https://instagram.com/sugaring_kubinka?igshid=ZjA0NjI3M2I="target="_blank">Инстаграм</a></li>
-        <li><a href="https://t.me/@a_Alina_Ilchenko"target="_blank">Телеграм</a></li>
-        <li><a href="https://vk.com/melonochka"target="_blank">Вконтакте</a></li>
-    </ul>
-
-    <hr>
-
-    <h2>Мои хобби</h2>
-    <ul>
-        <li>Блогер</li>
-        <Li>Путишествия</Li>
-        <li>Саморазвитие в области Ухода и Красоты</li>
-    </ul>
-
-    <hr>
-
-<h2>Опыт работы и Учёбы</h2>
-<table border="7">
-    <tr>
-        <td>Должность</td>
-        <td>Место учёбы/работы</td>
-        <td>Года учебы</td>
-    </tr>
-
-    <tr>
-        <td>Специалист по депиляции</td>
-        <td>г.Симферополь студия депиляции <em>"Катрин"</em></td>
-        <td>2018</td>
-    </tr>
-    <tr>
-        <td>Мастер депиляции биополимером Skins</td>
-        <td>г.Звенигород студия красоты <em>"Mani"</em></td>
-        <td>2019</td>
-    </tr>
-
-    <tr>
-        <td>Косметолог Эстетист</td>
-        <td>"Институт косметологии, эстетической медицины и визажного искусства - Дом Русской Косметики"</td>
-        <td>2022</td>
-    </tr>
-</table>
-
-<hr>
+            <tr>
+                <td>Косметолог Эстетист</td>
+                <td>"Институт косметологии, эстетической медицины и визажного искусства - Дом Русской Косметики"</td>
+                <td>2022</td>
+            </tr>
+        </table>
+    </div>
 
     <h2>Youtube Курсы</h2>
-    <a href="Youtube.html">Посмотреть список</a>
+        <ul class="Link-list">
+            <li>
+                <a href="https://www.youtube.com/watch?v=dhUIx-lsnUA">10 глупых вопросов - КОСМЕТОЛОГУ</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=jbaEOr6qYSk">10 минут, чтобы узнать о профессии врач-косметолог</a>
+            </li>
+        </ul>
+                    
+        <div class="contact">
+            <h2>Связаться со мной</h2>
 
-<hr>
+            <form action="/">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
 
-<h2>Связаться со мной</h2>
 
-<form action="/">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" placeholder="Вводить ваше имя..."></input>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите Ваш email...">
+                    </div>
+                </div>
+            
+            <div class="form-group"> 
+                <label for="text">Ваше Сообщение...</label>
+            </div>
+            
+            <div>
+                <input class="btn" type="submit" value="Связаться!">
+            </form>
 
-    <br>
+            <div class="position">
+                <div class="box">
+            </div>
+        
+        </div>
 
-    <label for="email">Ваш Email:</label>
-    <input type="email" id="email" placeholder="Ваш email..."></input>
 
-    <br>
 
-    <label for="text">Ваше Сообщение</label>
-    <br>
-    <textarea id="text" rows="2" cols="15"></textarea>
 
-    <br>
+        <div style="margin-bottom: 500px;;"></div>
 
-    <imput type="submit" value="Связаться!"
-    
-    <br>
 
-</form>
 
 </body>
 </html>
